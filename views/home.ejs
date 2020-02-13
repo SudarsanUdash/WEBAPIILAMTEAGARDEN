@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Second hand item - Home</title>
+  <link rel="icon" href="img/fevicon.png" type="image/png">
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/main.css">
+
+
+  <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="vendors/linericon/style.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container-fluid">
+  <!--================Header Menu Area =================-->
+  <div class="row">
+      <% include navbar.ejs %>
+    </div>
+  <div class="row">
+  <main class="site-main">
+    <!--================Hero Banner start =================-->  
+    <section class="mb-30px">
+      <div class="container">
+        <div class="hero-banner">
+          <div class="hero-banner__content">
+            <h3>Buy and sell</h3>
+            <h1>A platform for all purpose</h1>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================Hero Banner end =================-->  
+
+    <!--================ Blog slider start =================-->  
+    <section>
+      <div class="container">
+        <div class="owl-carousel owl-theme blog-slider">
+          <div class="card blog__slide text-center">
+            <div class="blog__slide__img">
+              <img class="card-img rounded-0" src="img/blog/blog-slider/blog-slide1.png" alt="">
+            </div>
+            <div class="blog__slide__content">
+              <a class="blog__slide__label" href="#">BUY</a>
+              <h3><a href="#">Buy and sell what you want</a></h3>
+              <p>2 days ago</p>
+            </div>
+          </div>
+          <div class="card blog__slide text-center">
+            <div class="blog__slide__img">
+              <img class="card-img rounded-0" src="img/blog/blog-slider/blog-slide2.png" alt="">
+            </div>
+            <div class="blog__slide__content">
+              <a class="blog__slide__label" href="#">BUY</a>
+              <h3><a href="#">Get a new home as you desire</a></h3>
+              <p>2 days ago</p>
+            </div>
+          </div>
+          <div class="card blog__slide text-center">
+            <div class="blog__slide__img">
+              <img class="card-img rounded-0" src="img/blog/blog-slider/blog-slide3.png" alt="">
+            </div>
+            <div class="blog__slide__content">
+              <a class="blog__slide__label" href="#">BUY</a>
+              <h3><a href="#">Buy and sell what you want</a></h3>
+              <p>2 days ago</p>
+            </div>
+          </div>
+          <div id="aline">
+              <div id="second">
+              <p></p>
+              </div>
+              <link rel="stylesheet" type="text/css" href="costumize.css">
+              <div id="eight">
+                <div class="slideshow-container">
+                  <div class="mySlides fade">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="pictures/coffee-shop1.jpg" style="width: 100%">
+                    <div class="text">Coffee Creativity</div>
+                  </div>
+    
+                  <div class="mySlides fade">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="pictures/coffee-shop2.jpg" style="width:100%">
+                    <div class="text">Bakary Stall</div>
+                  </div>
+    
+                  <div class="mySlides fade">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="pictures/coffee-shop3.jpg" style="width:100%">
+                    <div class="text">Coffee Table</div>
+                  </div>
+    
+    
+                   <div class="mySlides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="images/blog-slide1.jpg" style="width:100%">
+                    <div class="text">Coffee House</div>
+                  </div>
+    
+    
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+    
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                   <span class="dot" onclick="currentSlide(4)"></span> 
+                </div>
+                </center>
+    
+                <script type="text/javascript">
+                  var slideIndex = 1;
+                showSlides(slideIndex);
+    
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+    
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+    
+                function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1} 
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none"; 
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active1", "");
+                  }
+                  slides[slideIndex-1].style.display = "block"; 
+                  dots[slideIndex-1].className += " active1";
+                }
+                </script>
+                </div>
+                </div>
+          <div class="card blog__slide text-center">
+            <div class="blog__slide__img">
+              <img class="card-img rounded-0" src="img/blog/blog-slider/blog-slide1.png" alt="">
+            </div>
+            <div class="blog__slide__content">
+              <a class="blog__slide__label" href="#">BUY</a>
+              <h3><a href="#">Buy and sell what you want</a></h3>
+              <p>2 days ago</p>
+            </div>
+          </div>
+          <div class="card blog__slide text-center">
+            <div class="blog__slide__img">
+              <img class="card-img rounded-0" src="img/blog/blog-slider/blog-slide2.png" alt="">
+            </div>
+            <div class="blog__slide__content">
+              <a class="blog__slide__label" href="#">BUY</a>
+              <h3><a href="#">Buy and sell what you want</a></h3>
+              <p>2 days ago</p>
+            </div>
+          </div>
+          <div class="card blog__slide text-center">
+            <div class="blog__slide__img">
+              <img class="card-img rounded-0" src="img/blog/blog-slider/blog-slide3.png" alt="">
+            </div>
+            <div class="blog__slide__content">
+              <a class="blog__slide__label" href="#">BUY</a>
+              <h3><a href="#">Buy and sell what you want</a></h3>
+              <p>2 days ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+  </div>
+
+  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+  <script src="js/jquery.ajaxchimp.min.js"></script>
+  <script src="js/mail-script.js"></script>
+  <script src="js/main.js"></script>
+</body>
+<script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="javascripts/authentication.js"></script>
+</html>
