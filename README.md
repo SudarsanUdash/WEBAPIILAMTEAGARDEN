@@ -1,10 +1,10 @@
 # Your Project Title
 
-Name: Your full name here
+Name: Sudarsan Udash
 
-CollegeID: Your college ID
+CollegeID: 170354
 
-Batch: Jan19A/19B/19C/19D
+Batch: Nov 22c
 
 
 # Frontend code architecture
