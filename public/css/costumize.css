@@ -1,0 +1,262 @@
+body{
+	background-image: url("pictures/background.jpg")
+
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#12110C;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #F3DB93;
+    color: black;
+}
+
+.active {
+    background-color: #F3DB93;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+
+#footer{
+	background-image: url("pictures/footer-bg.png");	
+}
+
+
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 880px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 100px;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev{
+	left: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active1, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+
+p{
+  font-family: verdana;
+}
+
+
+
+
+
+
+
+#container {
+	width: 18px 54px; /*Set the width of the entire website here */
+	margin-right: auto;
+	margin-left: auto; /* Margin-left and right are set to auto to center the container */
+}
+
+#seventh:first-child,#eighth:first-child, #ninth:first-child, #tenth:first-child,#eleventh:first-child,#fifth:first-child, #fourth:first-child, #third:first-child, #second:first-child, #first:first-child, #sixth:first-child { 
+	margin-left: 0; /* This line of code makes the left-most column align to the left of the screen */
+}
+
+#eleventh {
+	width: 91.5%;
+	float: left;
+	margin-left: 2%;
+}
+
+#tenth {
+	width: 83%;
+	float: left;
+	margin-left: 2%;
+}
+
+#ninth {
+	width: 74.5%;
+	float: left;
+	margin-left: 2%;
+}
+
+#eighth {
+	width: 66%;
+	float: left;
+	margin-left: 2%;
+}
+
+#seventh {
+	width: 57.5%;
+	float: left;
+	margin-left: 2%;
+}
+
+#sixth {
+	width: 49%; /* This div spans six columns (the entire row)*/
+	float: left;
+	margin-left: 2%;
+}
+
+#fifth {
+	width: 40.5%; /* This div spans five columns */
+	margin-left: 2%;
+	float:left;
+}
+
+#fourth {
+	width: 32%;
+	float:left;
+	margin-left: 2%;
+}
+
+#third {
+	width: 23.5%;
+	float:left;
+	margin-left: 2%;
+}
+
+#second {
+	width: 15%;
+	float:left;
+	margin-left: 2%;
+}
+#first {
+	width: 6.5%;
+	float:left;
+	margin-left: 2%;
+}
+
+#aline {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
+}
+

@@ -1,0 +1,141 @@
+.main{
+    position: relative;
+}
+
+.ver{
+    float: left;
+    position: absolute;
+}
+
+
+.med{
+    position: absolute;
+    float: left;
+    margin-top: 0px;
+   
+    width: 84%;
+    height: 900px;
+    margin-left: 200px;
+    
+    
+}
+
+.meden{
+ 
+    font-synthesis: weight;
+    font-size: 30px;
+    margin-left: 350px;
+    
+}
+.for{
+    width: 600px;
+    height: 700px;
+    background-color:beige;
+    margin-left: 200px;
+    border-radius: 50px;
+}
+.label{
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    margin-left: 70px;
+    
+}
+/*
+.text{
+    height: 30px;
+    width: 200px;
+    border-bottom-color: midnightblue;
+    border: 2px;
+    border-style: solid;
+    margin-left: 100px;
+    border-radius: 30px;
+    text-align: center;
+      background-color: azure;
+    
+}
+*/
+
+/*
+.sub{
+    width: 200px;
+    height: 70px;
+    color: firebrick;
+    background-color: lightgreen;
+    border-radius: 20px;
+    margin-left: 200px;
+    
+}
+
+
+.tex{
+    height: 30px;
+    width: 200px;
+    margin-left: 100px;
+    
+    
+}
+.area{
+    margin-left: 100px;
+    border-radius: 20px;
+    background-color: azure;
+}
+table{
+    margin-left:10px;
+}
+.eventtable{
+    background-color: lightblue;
+    margin-left: 1px;
+}
+.eventlist{
+    color: cadetblue;
+    
+   
+}
+th, td {
+  padding: 0px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+tr:hover
+{
+    background-color: #f5f5f5;
+}
+
+
+.title{
+    margin-left: 10px;
+}
+
+
+.regisevent{
+    text-align: center;
+}
+*/
+
+
+
+
+
+.signupform{
+    
+}
+
+.namebox{
+    background-color: lightgoldenrodyellow !important
+  
+}
+.labelname{
+    font-weight: bold !important
+}
+.aboutimage{
+    width: 250px;
+    height: 250px;
+}
+.aboutdescription{
+    background-color: #dbe7f9 !important;
+        width: 70%;
+    text-align: justify;
+    margin-left: 15%;
+
+}
